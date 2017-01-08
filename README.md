@@ -1,7 +1,6 @@
 # Mahmoud Abdurrahman Resume
 
-> This is my Resume.<br>
-> It's still under development.
+> This is my Resume.
 
 The idea behind that is to:
 - Make use of thousands of features that CSS and JS provide
@@ -10,4 +9,4 @@ The idea behind that is to:
 - Provide different printing options
 - Make it easily shareable
 
-https://mabdurrahman.github.io/resume/
+https://mabdurrahman.com/
