@@ -405,33 +405,33 @@ iframe {
   font-weight: 600;
   padding-left: 25px;
 }
-/* Testimonials section */
-.testimonials .item {
+/* Recommendations section */
+.recommendations .item {
   margin-bottom: 30px;
 }
-.testimonials .item:last-child {
+.recommendations .item:last-child {
   margin-bottom: 0;
 }
-.testimonials .item .quote {
+.recommendations .item .quote {
   color: #666;
   font-size: 16px;
   border-left-color: #9fdeb7;
   margin-bottom: 15px;
 }
-.testimonials .item .quote .fa {
+.recommendations .item .quote .fa {
   color: #79d19a;
   margin-right: 15px;
 }
-.testimonials .item .source {
+.recommendations .item .source {
   font-size: 14px;
   padding-left: 30px;
   font-weight: 500;
 }
-.testimonials .item .source .name {
+.recommendations .item .source .name {
   color: #939ea9;
   font-weight: 600;
 }
-.testimonials .item .source .title {
+.recommendations .item .source .title {
   color: #999;
 }
 /* Education section */
