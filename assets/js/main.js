@@ -13,7 +13,7 @@ jQuery(document).ready(function($) {
             
             $(this).animate({
                 width: itemWidth
-            }, 800);
+            }, getParameterByName("printmode") === "true"? 0 : 800);
             
         });
 
