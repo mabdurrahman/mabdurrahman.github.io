@@ -211,10 +211,10 @@ iframe {
   opacity: 0.8;
 }
 .latest .divider {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .latest .featured {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .latest .featured .title {
   margin-bottom: 5px;
@@ -224,7 +224,7 @@ iframe {
   margin-bottom: 30px;
   color: #778492;
 }
-.latest .featured img {
+.latest .featured img.project-image {
   margin-bottom: 30px;
 }
 .latest .featured .desc {
@@ -501,6 +501,14 @@ iframe {
 }
 .footer .fa-heart {
   color: #fb866a;
+}
+/* ======= Screenshots Gallery ======= */
+.screenshots-gallery {
+  display: inline-block;
+}
+/* ======= Thumbnail Override ======= */
+.thumbnail {
+  padding: 0px;
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
