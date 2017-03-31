@@ -1,0 +1,24 @@
+{
+  "name": "mabdurrahman.github.io",
+  "version": "1.0.0",
+  "description": "> This is my Resume.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabdurrahman/mabdurrahman.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mabdurrahman/mabdurrahman.github.io/issues"
+  },
+  "homepage": "https://github.com/mabdurrahman/mabdurrahman.github.io#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
