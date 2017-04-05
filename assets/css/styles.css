@@ -551,13 +551,37 @@ iframe {
 }
 /* ======= Thumbnail Override ======= */
 .thumbnail {
+  position: relative;
   padding: 0px;
   margin: 10px 0;
   transition: all 200ms ease-in;
+  display: table;
 }
 .thumbnail:hover {
   cursor: zoom-in;
   transform: scale(1.1);
+}
+*:last-child>.thumbnail:after {
+  content: "+ " attr(data-after);
+  position: absolute;
+  top: 45%;
+  left: 0;
+  font-size: 4vh;
+  color: white;
+  z-index: 2;
+  width: 100%;
+  height: 55%;
+  text-align: center;
+}
+.captionbg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
 }
 .project-icon {
   padding: 0 30px;
@@ -615,11 +639,35 @@ h3.title.no-border {
   .container {
     width: 1360px;
   }
+  
+  .minpadding {
+    padding: 10px !important;
+  }
 }
 
 @media (max-width: 992px) {
   .header-buttons {
     float: initial !important;
+  }
+  
+  *:last-child>.thumbnail:after {
+    top: 40% !important;
+    font-size: 3.5vh !important;
+    height: 60% !important;
+  }
+  
+  .minpadding {
+    padding: 7px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  *:last-child>.thumbnail:after {
+    font-size: 3vh !important;
+  }
+  
+  .minpadding {
+    padding: 4px !important;
   }
 }
 

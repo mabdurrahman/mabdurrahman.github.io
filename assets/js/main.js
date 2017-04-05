@@ -66,6 +66,7 @@ jQuery(document).ready(function($) {
     }
     
     if (!!!getParameterByName("printmode")) {
+      addScreenshotsDiscoverMoreIndicators('.screenshots-gallery');
       initPhotoSwipeFromDOM('.screenshots-gallery');
     }
 });
@@ -80,6 +81,21 @@ function getParameterByName(name, url) {
   if (!results) return null;
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+function addScreenshotsDiscoverMoreIndicators(gallerySelector) {
+  $(gallerySelector + '>*:last-child>.thumbnail').each(function(index) {
+    var el = $(this);
+    var parent = el.parent().parent('.screenshots-gallery');
+    var pattern = parent.attr('data-pattern');
+    
+    var screenshotsCount = parent.attr('data-pattern').split(",")[0].split("|")[2];
+    
+    el.attr("data-after", screenshotsCount - parent.children('div').length);
+    el.append("<div class='captionbg' />");
+  });
+  
+  $(gallerySelector + '>div').addClass("minpadding");
 }
 
 function initPhotoSwipeFromDOM(gallerySelector) {
