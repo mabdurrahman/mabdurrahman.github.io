@@ -89,7 +89,11 @@ function addScreenshotsDiscoverMoreIndicators(gallerySelector) {
     var parent = el.parent().parent('.screenshots-gallery');
     var pattern = parent.attr('data-pattern');
     
-    var screenshotsCount = parent.attr('data-pattern').split(",")[0].split("|")[2];
+    var screenshotsCount = 0;
+    
+    for (var itemsPattern of parent.attr('data-pattern').split(",")) {
+      screenshotsCount += parseInt(itemsPattern.split("|")[2]);
+    }
     
     el.attr("data-after", screenshotsCount - parent.children('div').length);
     el.append("<div class='captionbg' />");
