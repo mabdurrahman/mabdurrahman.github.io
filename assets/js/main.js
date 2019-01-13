@@ -55,11 +55,15 @@ jQuery(document).ready(function($) {
     );
     
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    GitHubCalendar("#github-graph", "mabdurrahman");
+    if ($("#github-graph").length) {
+      GitHubCalendar("#github-graph", "mabdurrahman");
+    }
     
     
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "mabdurrahman", selector: "#ghfeed" });
+    if ($("#ghfeed").length) {
+      GitHubActivity.feed({ username: "mabdurrahman", selector: "#ghfeed" });
+    }
 
     if (getParameterByName("printmode") === "true") {
       $('.non-printable').hide();
