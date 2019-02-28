@@ -400,6 +400,34 @@ iframe {
 .info li:last-child {
   margin-bottom: 0;
 }
+/* Insights Section */
+.insights .insightset .item {
+  margin-bottom: 7px;
+}
+.insights .insightset .insight-digit {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #66cb8c;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  margin-top: 0;
+  float: right;
+  padding-right: 10px;
+}
+.insights .insightset .insight-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 10;
+}
+.insights .insightset .insight-subtitle {
+  font-size: 16px;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 10;
+}
 /* Skills Section */
 .skills .intro {
   margin-bottom: 30px;
@@ -631,6 +659,15 @@ h3.title.no-border {
     margin-bottom: 15px;
   }
 }
+
+.minpadding {
+  padding: 10px !important;
+}
+
+.nopadding {
+  padding: 0px !important;
+}
+
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
@@ -642,6 +679,10 @@ h3.title.no-border {
   
   .minpadding {
     padding: 10px !important;
+  }
+  
+  .nopadding {
+    padding: 0px !important;
   }
 }
 
@@ -659,6 +700,10 @@ h3.title.no-border {
   .minpadding {
     padding: 7px !important;
   }
+  
+  .nopadding {
+    padding: 0px !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -668,6 +713,10 @@ h3.title.no-border {
   
   .minpadding {
     padding: 4px !important;
+  }
+  
+  .nopadding {
+    padding: 0px !important;
   }
 }
 
