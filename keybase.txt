@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mabdurrahman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mabdurrahman.com
+  * I am mabdurrahman (https://keybase.io/mabdurrahman) on keybase.
+  * I have a public key ASBWLoSEzT5YFY-tX4P3Y1z5dey9QmFzVhkNtYjl8O-jhAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120562e8484cd3e58158fad5f83f7635cf975ecbd42617356190db588e5f0efa3840a",
+      "host": "keybase.io",
+      "kid": "0120562e8484cd3e58158fad5f83f7635cf975ecbd42617356190db588e5f0efa3840a",
+      "uid": "7cf3206358b0de800979ccf0805acd19",
+      "username": "mabdurrahman"
+    },
+    "merkle_root": {
+      "ctime": 1619005184,
+      "hash": "ae643595790db1fb0865e498b381fa523d994dcf1d1075c439e1159eb9b4af02f45ae1b66a947912aef48efee137d5c8eff00eefc308e73e1e46fb6cca2ce016",
+      "hash_meta": "349a2d2f25ff27e0067c174337834436cf3b999dbed7a009f93528f4415759bb",
+      "seqno": 19697975
+    },
+    "service": {
+      "entropy": "8d7u3zuqNeBwzQEXAv1z0trF",
+      "hostname": "mabdurrahman.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.2"
+  },
+  "ctime": 1619005231,
+  "expire_in": 504576000,
+  "prev": "41bbb68667cf53adff3c312a260b00bb40eaa1d0df7f5f473e5b37b19246bd8f",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgVi6EhM0+WBWPrV+D92Nc+XXsvUJhc1YZDbWI5fDvo4QKp3BheWxvYWTESpcCBsQgQbu2hmfPU63/PDEqJgsAu0DqodDff19HPls3sZJGvY/EIKZJqLA5A14iSMg5LqJvDnq9jUEPJKU4SKaRRr5E3uelAgHCo3NpZ8RADE6MtKH0EgFJCeKmlHlc5hMTv+ibUlQMxAQK4DYCasxY+P8LzUdnO/F1fX3sqZlKd/bJE6fno66DnKt78lWiAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGFBfzlNG1d0qjdwEzIIvJWsPRZ8AFSsYdafJx/lh4Gao3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mabdurrahman
+
+==================================================================
