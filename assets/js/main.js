@@ -56,13 +56,7 @@ jQuery(document).ready(function($) {
     
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
     if ($("#github-graph").length) {
-      GitHubCalendar("#github-graph", "mabdurrahman");
-    }
-    
-    
-    /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    if ($("#ghfeed").length) {
-      GitHubActivity.feed({ username: "mabdurrahman", selector: "#ghfeed" });
+      GitHubCalendar("#github-graph", "mabdurrahman", { responsive: true });
     }
 
     if (getParameterByName("printmode") === "true") {
